@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-04-25
+
+### Bug Fixes
+
+- **core:** Tolerate Windows MoveFileEx race losers in cascade persistence([abe697d](https://github.com/oakoss/linesmith/commit/abe697d8c614a2269382fe2e26d1410725a52012))
+- **core:** Gate KEYCHAIN_SERVICE to macOS so Ubuntu clippy passes([769e355](https://github.com/oakoss/linesmith/commit/769e355e70c043a72e4d620a0f61fff1c29755ec))
+- **core:** Tolerate null required leaves in parse_context_window([93506ac](https://github.com/oakoss/linesmith/commit/93506acca6f9cb475b9dc365d74156abf489d02f))
+
 ## [0.1.1] - 2026-04-25
 
 ### Bug Fixes
